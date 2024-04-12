@@ -37,7 +37,7 @@ import sympy as sp
 
 db = Client('elhakem.v2', "Calculation")
 
-token = "6681155298:AAEBcuraa18akRhMecCHPmQh31oDUY647nc"
+token = input("Enter Token")
 
 bot = TeleBot(token=token,skip_pending=True, parse_mode='html', disable_web_page_preview=True)
 
